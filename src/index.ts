@@ -72,6 +72,7 @@ https://api.graph.cool/relay/v1/${body.project.alias}`
  
     ${chalk.blue(figures.pointer)} Simple API: https://api.graph.cool/simple/v1/${body.project.alias}
     ${chalk.blue(figures.pointer)} Relay API:  https://api.graph.cool/relay/v1/${body.project.alias}
+    ${chalk.blue(figures.pointer)} Subscriptions API: wss://subscriptions.graph.cool/v1/${body.project.alias}
 
 
   ${chalk.bold('Open your GraphQL endpoint in a browser to use the interactive API Playground.')}
