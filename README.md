@@ -4,6 +4,8 @@
 
 ## Features
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/graphcool/graphql-up.svg)](https://greenkeeper.io/)
+
 * 🚀  Get a instant **GraphQL API for your schema**
 * ⚛️  Optimized endpoints for Apollo & Relay
 * 👨‍🏫  Easy to add to your own tutorials, docs & examples
