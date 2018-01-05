@@ -12,13 +12,13 @@
 ## Quickstart
 
 ```graphql
-type Tweet {
+type Tweet @model {
   id: ID! @isUnique
   text: String!
   author: User! @relation(name: "Tweets")
 }
 
-type User {
+type User @model {
   id: ID! @isUnique
   name: String!
   tweets: [Tweet!]! @relation(name: "Tweets")
